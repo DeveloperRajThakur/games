@@ -1,0 +1,192 @@
+body{
+    overflow: hidden;
+    /* background-color: black; */
+    border-left: 90px solid red;
+    border-right: 90px solid red;
+    border-bottom: 190px solid red;
+    
+}
+.head{
+   font-size: 30px;
+   border: 2px solid black;
+   border-radius: 10px;
+   background-color: yellow;
+   margin: 22px auto;
+   width: 400px;
+   text-align: center;
+   padding: 10px 0px;
+   font-family: 'Londrina Solid', cursive;
+}
+.main{
+   /* border: 2px solid red; */
+   height: 625px;
+   display: flex;
+   margin-top: 40px;
+}
+.right , .left{
+   /* border: 2px solid blue; */
+   width: 50%;
+   margin: 1%;
+   position: relative;
+
+}
+#score1 , #score2{
+   border: 2px solid red;
+   border-radius: 23px;
+   position: absolute;
+   height: 80px;
+   width: 80px;
+   right: 0;
+   text-align: center;
+   font-size: 60px;
+   line-height: 80px;
+}
+#score2{
+   left: 4px; 
+}
+.game{
+   /* border: 2px solid green;  */
+   margin: 0px 30px 30px 0px;
+   height: 90%;
+   margin-left: 30px;
+}
+.stone, .paper, .scissor,.stone1 ,.paper1,.scissor1 {
+   /* border: 2px solid brown; */
+   border-radius: 30px;
+   height: 33%;
+   width: 80%;
+   text-align: center;
+   cursor: pointer;
+}
+.stone1 ,.paper1,.scissor1 {
+ margin-left: 63px;
+}
+.stone:hover, .paper:hover, .scissor:hover{
+   background-color: greenyellow;
+   
+}
+.image{
+   position: absolute;
+   left: 30px; 
+}
+.stone1:hover ,.paper1:hover,.scissor1:hover{
+   background-color: rgb(255, 107, 107);
+   
+}
+.image1{
+   position: absolute;
+   right: 25px; 
+}
+.game1{
+   /* border: 2px solid green; */
+   margin: 0px 30px 30px 30px;
+   margin-left: 87px;
+   height: 90%;
+   width: 91%;
+}
+.scoreup , .scoreup1{
+   /* border: 2px solid yellow; */
+   position: absolute;
+   right: 4px;
+   top: 83px;
+   height: 420px;
+   width: 80px;
+}
+.scoreup1{
+   left: 4px;
+}
+  
+.points1, .points2,.points3,.points4,.points5{
+   /* border: 2px solid black; */
+   border-radius: 50px;
+   margin-top: 5px;
+   background-color:rgb(201, 255, 147);
+   height: 83px;
+   width: 100%;
+   box-shadow: 0px 1px 10px 2px green;
+}
+.points11,.points12,.points13,.points14,.points15{
+   border-radius: 50px;
+   margin-top: 5px;
+   background-color: rgb(255, 174, 174);
+   height: 83px;
+   width: 100%;
+   box-shadow: 0px 1px 10px 2px red;
+}
+.inner-box ,.inner-box1  {
+   border: 2px solid black;
+   border-radius: 10px;
+   position: absolute;
+   right: 33%;
+   font-size: 30px;
+   font-family: 'Londrina Solid', cursive;
+   width: 120px;
+   box-shadow: 1px 2px 9px 3px black;
+   margin-top: 10%;
+}
+.inner-box1{
+   left: 33%;
+} 
+
+/* box colors */
+.green{
+   animation-name: greenbox;
+   animation-duration: 1.5s;
+}
+@keyframes greenbox {
+   0%{
+      background-color: green;
+   }
+   100%{
+      background-color: green;
+   }
+}
+
+.red{
+   animation-name: redbox;
+   animation-duration: 1.5s;
+}
+@keyframes redbox {
+   0%{
+      background-color: red;
+   }
+   100%{
+      background-color: red;
+   }
+}
+
+.yellow{
+   animation-name: yellowbox;
+   animation-duration: 1.5s;
+}
+@keyframes yellowbox {
+   0%{
+      background-color: yellow;
+   }
+   100%{
+      background-color: yellow;
+   }
+}
+
+.theme{
+   /* border: 2px solid red; */
+   position: absolute;
+   top: 6%;
+   right: 14%;
+   border-radius: 10px;
+   height: 29px;
+   line-height: 26px;
+   width: 200px;
+   text-align: center;
+   background-color: rgb(255, 107, 107);
+   color: floralwhite;
+}
+button{
+   margin-right: 5px;
+   color: darkgreen;
+   background-color: rgb(255, 210, 126);
+}
+button:hover{
+   box-shadow: 0px 0px 6px 2px black;
+   
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=ZCOOL+KuaiLe&display=swap"
+        rel="stylesheet">
+    <title>GAMES</title>
+    <style>
+        .container {
+            display: flex;
+            /* border: 2px solid red; */
+            height: 300px;
+            width: 600px;
+            margin: 180px auto;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            /* border: 2px solid green; */
+            border-radius: 20px;
+            box-shadow: 1px 1px 14px 4px rgb(110, 109, 109);
+            height: 200px;
+            width: 260px;
+            margin: 0;
+            margin-bottom: -43px;
+            overflow: hidden;
+            background-color: white;
+        }
+        .box:hover{
+            box-shadow: 1px 1px 14px 4px black;
+        }
+        .text {
+            /* border: 2px solid blue; */
+            height: 50px;
+            width: 260px;
+            margin: 0;
+            text-align: center;
+            line-height: 46px;
+            font-size: 26px;
+            font-family: 'Londrina Solid', cursive;
+        }
+        
+        .sps {
+            height: 250px;
+            width: 280px;
+            position: relative;
+            top: -5px;
+            left: -7px;
+        }
+        
+        .ttt {
+            height: 196px;
+            width: 220px;
+            position: relative;
+            left: 22px;
+            top: 3px;
+            
+        }
+        body{
+            background-color: bisque;
+            border: 10px solid red;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 97vh;
+        }
+        .head{
+            position: absolute;
+            top: 16%;
+            left: 42.3%;
+            font-size: 40px;
+            font-family: 'Londrina Solid', cursive;
+        }
+        </style>
+</head>
+
+<body>
+  <div class="head">
+      Select any game
+  </div>
+
+    <div class="container">
+        <a href="game2.html" class="box"> <img src="sps.jpg" class="sps"> </a>
+        <a href="tic tac toe.html" class="box"><img src="ttt.jpeg" class="ttt"> </a>
+        <div class="text">STONE PAPER SCISSOR</div>
+        <div class="text">TIC TAC TOE</div>
+    </div>
+</body>
+
+</html>

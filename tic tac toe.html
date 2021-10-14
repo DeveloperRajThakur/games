@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+<link href="tic tac toe.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lemonada&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="playerName1"></div>
+  <div id="playerName2"></div>
+  
+  <div id="winner1"></div>
+  <div id="winner2"></div>
+
+
+  <div class="bigcontainer">
+    
+    <div class="heading">TIC TAC TOE</div>
+    <div class="ox">
+      <div style="color: red;">X</div> <button onclick="removed()">Reset</button> <div style="color: green;">0</div> 
+    </div>
+    
+    <div class="container">
+      <div id="container1" onclick="a(); winnerX();" onmousewheel="a1(); winnerO()"></div>
+      <div id="container2" onclick="b(); winnerX();" onmousewheel="b1(); winnerO()"></div>
+      <div id="container3" onclick="c(); winnerX();" onmousewheel="c1(); winnerO()"></div>
+      <div id="container4" onclick="d(); winnerX();" onmousewheel="d1(); winnerO()"></div>
+      <div id="container5" onclick="e(); winnerX();" onmousewheel="e1(); winnerO()"></div>
+      <div id="container6" onclick="f(); winnerX();" onmousewheel="f1(); winnerO()"></div>
+      <div id="container7" onclick="g(); winnerX();" onmousewheel="g1(); winnerO()"></div>
+      <div id="container8" onclick="h(); winnerX();" onmousewheel="h1(); winnerO()"></div>
+      <div id="container9" onclick="i(); winnerX();" onmousewheel="i1(); winnerO()"></div>
+    </div>
+    
+    
+  </div>
+  <script src="tic tac toe.js">
+    
+  </script>
+</body>
+
+</html>

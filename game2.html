@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+
+    <title>Stone Paper scissor</title>
+</head>
+<body>
+     <div class="theme"> Theme:
+    <button onclick="black()"> 
+      Dark
+    </button>
+    <button onclick="white()">
+      Light
+    </button>
+  </div>
+
+    <div class="head">
+        STONE PAPER SCISSOR
+    </div>
+     <div class="main">
+     <div class="right">
+      <div id="score1"></div>
+
+      <div class="scoreup">
+      <div class="points1"></div>
+      <div class="points2"></div>
+      <div class="points3"></div>
+      <div class="points4"></div>
+      <div class="points5"></div>
+      </div>
+
+      <div class="game">
+      <div class="stone" onclick="stonegame()">    <img src="stone.png" class="image">    <p class="inner-box">STONE  </p> </div>
+      <div class="paper" onclick="papergame()">     <img src="Paper.png" class="image">   <p class="inner-box">PAPER  </p> </div>
+      <div class="scissor" onclick="scissorgame()"> <img src="scissor.png" class="image"> <p class="inner-box">SCISSOR</p></div>
+    </div>
+    </div>
+    <div class="left">
+      <div id="score2"></div>
+
+      <div class="scoreup1">
+        <div class="points11"></div>
+        <div class="points12"></div>
+        <div class="points13"></div>
+        <div class="points14"></div>
+        <div class="points15"></div>
+        </div>
+
+      <div class="game1">
+        <div class="stone1">  <img src="stone1.png"   class="image1"><p class="inner-box1">STONE  </p>  </div>
+        <div class="paper1">  <img src="Paper1.png"   class="image1"><p class="inner-box1">PAPER  </p>  </div>
+        <div class="scissor1"><img src="scissor1.png" class="image1"><p class="inner-box1">SCISSOR</p></div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
+<script src = "game2.js">
+   
+
+</script>
